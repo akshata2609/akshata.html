@@ -1,0 +1,35 @@
+body{
+     background-color: aquamarine;
+     scroll-behavior: smooth;
+}
+.head1{
+    background-color: purple;
+    color: antiquewhite;
+    text-align: center;
+}
+.headlast{
+    background-color: blueviolet;
+    color: bisque;
+    font-style: italic;
+}
+.head3{
+    text-decoration: underline;
+    text-decoration-color: azure;
+    text-decoration-style: wavy ;
+}
+.head2{
+ color:plum;
+ font-size: 40px;
+ text-shadow: 3px 5px 2px black;
+ word-spacing: 40px;
+ letter-spacing: 20px;
+ font-family: Verdana;
+}
+p{
+line-height: 30px;
+font-weight: bold;
+font-family: Arial;
+}
+.headlast{
+    background-color: black;
+}

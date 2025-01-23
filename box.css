@@ -1,0 +1,29 @@
+.container{
+background-color: aqua;
+color: black;
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 20px;
+
+}
+
+.container1{
+background-color: blueviolet;
+color: black;
+padding: 20px;
+margin-top: 20px;
+
+}
+
+.box{
+background-color: brown;
+height: 200px;
+width: 200px;
+margin-top: 20px;
+/*box-shadow: 3px 4px 7px 5px blanchedalmond;*/
+border: 13px dotted black;
+/*border-radius: 20px;all direction*/
+border-top-right-radius: 30px;
+border-bottom-left-radius: 50px;
+
+}
