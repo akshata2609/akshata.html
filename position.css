@@ -1,0 +1,14 @@
+.parent{
+    background-color: black;
+    margin-top: 100px;
+    height: 80vh;
+}
+
+.child{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+} 
