@@ -1,0 +1,24 @@
+.para::first-letter{
+    font-size: 80px;
+    color: purple;
+    font-style: italic;
+}
+.para::first-line{
+    font-weight: bold;
+    color: plum;
+}
+input::placeholder{
+     color: blueviolet;
+}
+.name::before{
+    content: "GOLDEN";
+    color: aqua;
+}
+.name::after{
+    content: "RETRIVER";
+    color: aqua;
+}
+.para::selection{
+    background-color: bisque;
+    color: azure;
+}

@@ -61,6 +61,28 @@ else{
  }
 else{
     cout<<"invalid";
-}*/
+}
 
+int intrest;
+cout<<"enter amount";
+cin>>intrest;
+
+if(intrest>=0 && intrest<=1000){
+   cout<<"5%";
+}
+else if(intrest>1000 && intrest<=5000){
+   cout<<"10%";
+}
+else if(intrest>5000 && intrest<=10000){
+   cout<<"15%";
+}
+else if(intrest>10000 && intrest<=30000){
+   cout<<"20%";
+}
+else if (intrest<=50000){
+   cout<<"30%";
+}
+else{
+   cout<<"invalid";
+}*/
 }
