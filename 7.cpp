@@ -39,28 +39,21 @@ int main(){
     }
     else{
         cout<<"not";
-    }*/
+    }
 
-    string a;
-    cout<<"enter website name";
-    cin>>a;
+       string a;
+       cout<<"enter website name";
+       cin>>a;
 
        if(a=="flipkart"){
-        cout<<"product or services";
-       }
+       cout <<"product or services";  
        cin>>a;
        if(a=="product"){
         cout<<"electronics or shoes";
-       }       
-       else if (a=="services"){
-       cout<<"not available";
-       }
-       else{
-        cout<<"ii";
-       }
+        cin>>a;      
        if(a=="electronics"){
         cout<<"80000";
-       }   
+       }  
        else if(a=="shoes"){
         cout<<"1000";
        }
@@ -71,5 +64,7 @@ int main(){
     else{
         cout<<"ii";
     }
-}
+    }*/
 
+    
+}

@@ -1,0 +1,41 @@
+.head{
+    padding: 9px;
+} 
+.head1:hover{
+    background-color: aquamarine;
+    color:black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.img{
+    border: 3px solid black;
+    width: 200px;
+    padding: 4px;
+}
+.img:hover{
+    border: none;
+    scale: 1.1;
+    transition: all .4s;
+    animation-name: demmo;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes demmo{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 45deg;
+    }
+    50%{
+        rotate: 0deg;
+    }
+    75%{
+        rotate: -45deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
