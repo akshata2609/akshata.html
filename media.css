@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+}
+/*@media screen and (max-width:600px) {
+    body{
+        background-color: aquamarine;
+    }
+    
+}
+@media screen and  (min-width: 600px){
+    body{
+        background-color: brown;
+    }
+}
+    
+}*/
+@media screen and  (min-width:400px) and (max-width:600px){
+    body{
+        background-color: palevioletred; 
+    }
+}
+    
