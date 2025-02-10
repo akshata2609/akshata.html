@@ -3,7 +3,12 @@ background-color: burlywood;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
-
+}
+@media screen and (max-width:500px){
+    .wrapper{
+        flex-direction: column;
+    }
+    
 }
 
 .ch1,.ch2,.ch3{
@@ -12,4 +17,4 @@ border: 2px solid white;
 height: 200px;
 width: 200px;
 
-}
+} 
